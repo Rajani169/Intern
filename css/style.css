@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans',serif;
+}
+
+#view{
+display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.view{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+ul li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+}
